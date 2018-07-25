@@ -1,0 +1,47 @@
+package com.demo.takescreenshot;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TakeScreenShot {
+	
+	public static void main(String[] args) throws IOException {
+		
+		System.setProperty("webdriver.chrome.driver","\\Grid\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.get("http://www.flipkart.com/");
+		
+		String fileName = new String();
+		String destinationFilePathLocation="C:\\Tosca\\ScreeShot\\";
+		DateFormat dateFormat = new SimpleDateFormat("hh_mm_ssaadd_MMM_yyyy");
+		Date date = new Date();
+		
+		fileName = driver.getTitle().replace(":", "").replace("-", "") + dateFormat.format(date) + ".png";
+	
+		
+		// Maximize Window
+		driver.manage().window().maximize();
+		// Take ScreenShot
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+		File destinationFilePath = new File((destinationFilePathLocation + File.separator + fileName));
+		FileUtils.copyFile(screenshot, destinationFilePath);
+		FileUtils.copyFile(scrFile, new File("screenshot1.png"), true);
+		// Close Driver
+		driver.quit();
+		}
+
+}

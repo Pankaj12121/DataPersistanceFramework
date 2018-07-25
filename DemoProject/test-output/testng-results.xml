@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: LoginButton]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "yellow">1.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: LoginButton]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "yellow">2.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: user]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+    </line>
+    <line>
+      <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: LoginButton]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "yellow">3.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104033" started-at="2018-07-24T12:23:27Z" finished-at="2018-07-24T12:25:11Z">
+    <groups>
+      <group name="functional">
+        <method signature="CreateAndVerifyLogin.createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" class="com.demo.tests.CreateAndVerifyLogin"/>
+      </group> <!-- functional -->
+      <group name="Sanity">
+        <method signature="CreateAndVerifyLogin.createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" class="com.demo.tests.CreateAndVerifyLogin"/>
+      </group> <!-- Sanity -->
+      <group name="PolicyCreation">
+        <method signature="CreateAndVerifyLogin.createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" class="com.demo.tests.CreateAndVerifyLogin"/>
+      </group> <!-- PolicyCreation -->
+      <group name="TC001">
+        <method signature="CreateAndVerifyLogin.createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" class="com.demo.tests.CreateAndVerifyLogin"/>
+      </group> <!-- TC001 -->
+      <group name="demo">
+        <method signature="CreateAndVerifyLogin.createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" class="com.demo.tests.CreateAndVerifyLogin"/>
+        <method signature="CreateAndVerifyLogin.createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" class="com.demo.tests.CreateAndVerifyLogin"/>
+      </group> <!-- demo -->
+    </groups>
+    <test name="Default test" duration-ms="104033" started-at="2018-07-24T12:23:27Z" finished-at="2018-07-24T12:25:11Z">
+      <class name="com.demo.tests.CreateAndVerifyLogin">
+        <test-method status="PASS" signature="GenReport(org.testng.ITestContext)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="GenReport" is-config="true" duration-ms="17" started-at="2018-07-24T12:23:27Z" finished-at="2018-07-24T12:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@597f0937]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenReport -->
+        <test-method status="PASS" signature="createLogin1(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin1" duration-ms="43987" started-at="2018-07-24T12:23:29Z" data-provider="dp001" finished-at="2018-07-24T12:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[com.demo.databin.Databin@4d9d1b69]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: LoginButton]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "yellow">1.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLogin1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="closeBrowser" is-config="true" duration-ms="2187" started-at="2018-07-24T12:24:13Z" finished-at="2018-07-24T12:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="createLogin2(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin2" duration-ms="27480" started-at="2018-07-24T12:24:15Z" data-provider="dp001" finished-at="2018-07-24T12:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[com.demo.databin.Databin@2b680207]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: LoginButton]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "yellow">2.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLogin2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="closeBrowser" is-config="true" duration-ms="150" started-at="2018-07-24T12:24:43Z" finished-at="2018-07-24T12:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="createLogin3(java.util.List)[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="createLogin3" duration-ms="27923" started-at="2018-07-24T12:24:43Z" data-provider="dp001" finished-at="2018-07-24T12:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[com.demo.databin.Databin@97d0c06]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: user]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: user@phptravels.com' in UserNameTextBox]]>
+            </line>
+            <line>
+              <![CDATA[Typed Value: demouser' in PasswordTestBox]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: LoginButton]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Hi, Johny Smith of user]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "yellow">3.  Actual= Hi, Johny Ssmith;  Expected= Hi, Johny Smith ; FAILED </Font></B>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLogin3 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="closeBrowser" is-config="true" duration-ms="291" started-at="2018-07-24T12:25:11Z" finished-at="2018-07-24T12:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.demo.tests.CreateAndVerifyLogin@25bbf683]" name="aftersuite" is-config="true" duration-ms="455" started-at="2018-07-24T12:25:11Z" finished-at="2018-07-24T12:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.demo.tests.CreateAndVerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

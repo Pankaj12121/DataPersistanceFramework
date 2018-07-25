@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+	
+	
+	<parameter name="browsername" value="chrome" />
+	<parameter name="browserversion" value="66" />
+	<parameter name="platform" value="windows" />
+	<parameter name="appURL" value="http://opensource.demo.orangehrmlive.com/" />
+	
+	<test verbose="2" name="chrome" parallel="methods" thread-count="6">
+		<packages>
+			<package name="com.demo.*" />
+		</packages>
+
+		<method-selectors>
+			<method-selector>
+				<script language="beanshell"><![CDATA[
+         			groups.containsKey("functional")
+       			]]></script>
+			</method-selector>
+		</method-selectors>
+	</test>
+</suite>

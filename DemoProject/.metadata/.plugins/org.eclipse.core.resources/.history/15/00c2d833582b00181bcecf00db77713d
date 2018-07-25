@@ -1,0 +1,34 @@
+package com.demoassertVsVerify;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AsserVSverify {
+	static WebDriver driver ;
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","\\Grid\\chromedriver.exe");
+		driver = new ChromeDriver();
+		String baseUrl = "http://opensource.demo.orangehrmlive.com/";
+		String expectedTitle = "OrangeHRM1";
+		String actualTitle = "";
+		driver.get(baseUrl);
+		actualTitle = driver.getTitle();
+		try{
+			if (actualTitle.contentEquals(expectedTitle)){
+				System.out.println("Test Passed!");
+			} else {
+				System.out.println("Test Failed");
+			}
+			System.out.println("Verify continues the execution even if checkpoint get failed");
+
+			//Assert.assertEquals(actualTitle, expectedTitle);
+
+		}catch(Exception e){
+
+			System.out.println("Assert stops the execution when checkpoint failed");
+
+		}
+		driver.close();
+	}
+
+}

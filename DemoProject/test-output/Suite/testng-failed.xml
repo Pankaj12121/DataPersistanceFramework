@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="browserversion" value="6"/>
+  <parameter name="platform" value="windows"/>
+  <listeners>
+    <listener class-name="com.demo.excelReport.CustomReporter"/>
+  </listeners>
+  <test thread-count="5" name="Chrome(failed)" parallel="methods">
+    <method-selectors>
+      <method-selector>
+        <script language="BeanShell">
+          <![CDATA[
+         groups.containsKey("functional")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="com.demo.tests.CreateAndVerifyLogin">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforeSuite"/>
+          <include name="createLogin1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.demo.tests.CreateAndVerifyLogin -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

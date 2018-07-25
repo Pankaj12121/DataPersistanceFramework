@@ -1,0 +1,5 @@
+package com.demo.screenshot;
+
+public class TakeScreenshot {
+
+}
